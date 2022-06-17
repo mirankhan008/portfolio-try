@@ -8,7 +8,11 @@ h1{
 .name-color{
     color: #674EDB;
 }
-section{
+#first-id{
+    display: flex;
+    margin-bottom: 100px;
+}
+#second-id{
     display: flex;
     margin-bottom: 100px;
 }
@@ -43,4 +47,41 @@ section{
 .half-width.second-section{
     padding-right: 10%;
 
+}
+#third-id{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exp{
+    text-align: center;
+}
+.container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half{
+    width: 46%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    box-shadow: 10px 10px 30px #674EDB;
+    
+}
+p{
+    text-align: justify;
+}
+.border1{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, #674EDB);
+    border-image-slice: 1;
+}
+.border2{
+    border-left: 7px solid;
+    border-image: linear-gradient(#674EDB, #f7a088);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: larger;
 }
